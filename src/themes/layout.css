@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #5c258d, #4389a2);
+    margin: 0;
+}
+
+.flex-viewport-c-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
